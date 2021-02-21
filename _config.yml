@@ -1,14 +1,24 @@
-# 기본 설명 https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme: 'mmistakes/minimal-mistakes'
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: 'ko-KR'
-title: "Minhye's Blog"
+title: '미네 블로그'
 title_separator: '&#124;'
-# subtitle: # site tagline that appears below site title in masthead
+subtitle: # site tagline that appears below site title in masthead
 name: '박민혜'
 description: 'html,css,sass,javascript,react등 개발을 공부하는 블로그'
 url: 'https://minhyepark-dev.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -85,13 +95,13 @@ analytics:
 author:
   name: '박민혜'
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: '매일 1g이라도 성장하기위해 <br> 공부하고 있습니다. '
+  bio: '매일 1g이라도 성장하기위해 <br> 공부하고 있습니다.'
   location: 'Republic of Korea'
   email: 'minhyepark.dev@gmail.com'
   links:
     - label: 'Email'
       icon: 'fas fa-fw fa-envelope-square'
-      # url: "mailto:your.name@email.com"
+      url: "minhyepark.dev@gmail.com"
     - label: 'Website'
       icon: 'fas fa-fw fa-link'
       # url: "https://your-website.com"
@@ -111,9 +121,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: 'Email'
-      icon: 'fab fa-fw fa-envelope-square'
-      url: 'minhyepark.dev@gmail.com'
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
+      # url:
     - label: 'Facebook'
       icon: 'fab fa-fw fa-facebook-square'
       # url:
@@ -257,7 +267,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
 
