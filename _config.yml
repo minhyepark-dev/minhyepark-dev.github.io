@@ -101,7 +101,7 @@ author:
   links:
     - label: 'Email'
       icon: 'fas fa-fw fa-envelope-square'
-      url: "minhyepark.dev@gmail.com"
+      # url: "minhyepark.dev@gmail.com"
     - label: 'Website'
       icon: 'fas fa-fw fa-link'
       # url: "https://your-website.com"
@@ -273,8 +273,12 @@ defaults:
 
   # _pages
   - scope:
-      path: '_pages'
+      path: ''
       type: pages
     values:
       layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
