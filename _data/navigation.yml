@@ -5,3 +5,5 @@ main:
     url: /normal-life/
   - title: '공부'
     url: /study/
+  - title: '문제해결'
+    url: /trouble/
